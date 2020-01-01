@@ -1,6 +1,6 @@
 ---
 title: "Solve simple problems in mathematical modeling"
-author: "SC19017016"
+author: "SC19016"
 date: "2019/12/30"
 output: rmarkdown::html_vignette
 vignette: >

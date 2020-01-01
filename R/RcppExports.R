@@ -14,6 +14,6 @@
 #' }
 #' @export
 rcpp_add <- function(x, y) {
-    .Call(`_SC19017016_rcpp_add`, x, y)
+    .Call(`_SC19016_rcpp_add`, x, y)
 }
 

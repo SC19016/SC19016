@@ -1,4 +1,4 @@
-useDynLib(SC19017016, .registration=TRUE)
+useDynLib(SC19016, .registration=TRUE)
 exportPattern("^[[:alpha:]]+")
 importFrom(Rcpp, evalCpp)
 importFrom("stats", "rnorm")

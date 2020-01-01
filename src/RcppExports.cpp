@@ -7,7 +7,7 @@ using namespace Rcpp;
 
 // rcpp_add
 int rcpp_add(int x, int y);
-RcppExport SEXP _SC19017016_rcpp_add(SEXP xSEXP, SEXP ySEXP) {
+RcppExport SEXP _SC19016_rcpp_add(SEXP xSEXP, SEXP ySEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -19,11 +19,11 @@ END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
-    {"_SC19017016_rcpp_add", (DL_FUNC) &_SC19017016_rcpp_add, 2},
+    {"_SC19016_rcpp_add", (DL_FUNC) &_SC19016_rcpp_add, 2},
     {NULL, NULL, 0}
 };
 
-RcppExport void R_init_SC19017016(DllInfo *dll) {
+RcppExport void R_init_SC19016(DllInfo *dll) {
     R_registerRoutines(dll, NULL, CallEntries, NULL, NULL);
     R_useDynamicSymbols(dll, FALSE);
 }
