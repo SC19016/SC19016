@@ -9,6 +9,7 @@
 #' sigma<-2
 #' pre<-0.5
 #' optimal_L<-steel(L,sigma,pre)
+#' }
 #' @export
 steel<-function(L,sigma,pre){
   n<-10000
