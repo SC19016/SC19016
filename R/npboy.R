@@ -14,6 +14,7 @@
 #' miu<-200
 #' sigma<-50
 #' npboy(a,b,c,miu,sigma)
+#' }
 #' @export
 npboy<-function(a,b,c,miu,sigma){
   n_day<-numeric(365)
